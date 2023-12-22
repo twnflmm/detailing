@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="./files/icons/favicon.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="./styles/styles.bundle.css?_v=20231212161548">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20231212161548" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700;900&display=swap&_v=20231212161548"
+		rel="stylesheet">
+	<title>Brooklands</title>
+</head>
+
+<body>
+	<header id="header" class="header">
+	<div class="container header__container">
+		<a href="index.html" class="logo header__logo">
+			Brooklands
+		</a>
+		<nav class="header__nav nav">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="#portfolio" class="nav__link">О нас</a>
+				</li>
+				<li class="nav__item">
+					<a href="#services" class="nav__link">Услуги</a>
+				</li>
+			</ul>
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="#footer" class="nav__link">Контакты</a>
+				</li>
+				<li class="nav__item">
+					<a href="login.html" class="nav__link">Войти</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="burger" id="burger">
+			<span class="center"></span>
+		</button>
+	</div>
+	<div class="menu" id="menu">
+		<ul class="menu__list">
+			<li class="menu__item">
+				<a href="#portfolio" class="menu__link">О нас</a>
+			</li>
+			<li class="menu__item">
+				<a href="#services" class="menu__link">Услуги</a>
+			</li>
+			<li class="menu__item">
+				<a href="#footer" class="menu__link">Контакты</a>
+			</li>
+			<a href="login.html" class="menu__button nav__button">Войти</a>
+		</ul>
+	</div>
+</header>
+	<main>
+		<section id="hero" class="hero">
+	<div class="container hero__container">
+		<h1 class="hero__title">
+			Br<span>o</span>ok<span>l</span>an<span>d</span>s
+			de<span>t</span>aili<span>n</span>g
+		</h1>
+		<p class="hero__subtitle">
+			Профессионый подход к каждому клиенту
+		</p>
+	</div>
+</section>
+		<section id="first-visit" class="first-visit">
+	<div class="container first-visit__container">
+		<div class="first-visit__text">
+			<h3 class="first-visit__title title">
+				Впервые у нас?
+			</h3>
+			<p class="first-visit__subtitle subtitle">
+				Каждому нашему первому клиенту скидка 10%
+			</p>
+		</div>
+		<a href="registration.html" class="first-visit__btn btn">Зарегистрироваться</a>
+	</div>
+</section>
+		<section id="portfolio" class="portfolio">
+	<div class="portfolio__image">
+		<picture><source srcset="./files/images/portfolio1.webp" type="image/webp"><img src="./files/images/portfolio1.jpg" alt="Portfolio Image"></picture>
+	</div>
+	<div class="container portfolio__container">
+		<div class="portfolio__content">
+			<h2 class="portfolio__title title title--center">
+				Портфолио <span>Brooklands</span> детейлинг
+			</h2>
+			<p class="portfolio__paragraph paragraph paragraph--center">
+				Производим ремонт и обслуживание всех автомобилей. Беремся за работы любой сложности: если вам отказали в
+				другом автосервисе, то мы сможем помочь.Возьмем на себя как мелкие поломки, вроде замены лампочки в фаре, так
+				и крупные. Например, починим карбюратор, заменим тормозные колодки или ходовую. Даем гарантию на ремонт от
+				полугода до трех лет, в зависимости от того, что именно ремонтируем.
+			</p>
+			<div class="portfolio__icon">
+				<svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g id="SVGRepo_bgCarrier" stroke-width="0" />
+					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+					<g id="SVGRepo_iconCarrier">
+						<path
+							d="M9 3V7M15 3V6M4 10H20M12 21C10.2337 21 8.91561 19.3737 9.28133 17.6457L9.34332 17.3528C9.56076 16.3254 9.04388 15.2832 8.09439 14.8346L5.9897 13.8401C4.77487 13.2661 4 12.043 4 10.6994V4.63149C4 3.73044 4.73044 3 5.63149 3H18.3685C19.2696 3 20 3.73044 20 4.63149V10.6994C20 12.043 19.2251 13.2661 18.0103 13.8401L15.9056 14.8346C14.9561 15.2832 14.4392 16.3254 14.6567 17.3528L14.7187 17.6457C15.0844 19.3737 13.7663 21 12 21Z"
+							stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</g>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+		<section id="parallax" class="parallax"></section>
+		<section id="portfolio-inverse" class="portfolio portfolio--inverse">
+	<div class="container portfolio__container">
+		<div class="portfolio__content portfolio__content--inverse">
+			<h2 class="portfolio__title title title--center">
+				Годы работы
+			</h2>
+			<p class="portfolio__paragraph paragraph paragraph--center">
+				За 6 лет нашей работы мы успели поработать с большим количеством автомобилей разных марок, классов и цветов.
+				По нашим подсчетам количество авто, прошедших детейлинг в нашем центре, уже превышает отметку в 10 000!
+			</p>
+			<div class="portfolio__icon">
+				<svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z"
+						stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio__image portfolio__image--inverse">
+		<picture><source srcset="./files/images/portfolio2.webp" type="image/webp"><img src="./files/images/portfolio2.jpg" alt="Portfolio Image"></picture>
+	</div>
+</section>
+		<section id="services" class="services">
+	<div class="services__blur-wrap">
+		<div class="container services__container">
+			<h2 class="services__title title title--center">Наши услуги</h2>
+			<div class="services__accord accord">
+				<ul class="accord__list">
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Нанесение воска на кузов автомобиля
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Предотвращение выгорания краски под прямыми солнечными лучами.
+									Препятствие контакта пыли, грязи, реагентов, которыми посыпаются дороги зимой, с деталями кузова.
+									Возможность скрыть мелкие царапины и сгладить неровности.
+
+								</p>
+								<p class="accord__bottom-price">
+									От 11 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Оклейка тонировочной пленкой
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Снижает температуру воздуха в салоне Вашего автомобиля.
+									Уменьшает яркость света фар.
+									Обеспечивает 99%-ую защиту от вредного ультрафиолетового излучения.
+
+								</p>
+								<p class="accord__bottom-price">
+									От 8 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Защитное керамическое покрытие
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Уникальность состава заключается в 80% содержании неорганического диоксида кремния, что дает
+									прекрасный мокрый блеск, химическую стойкость и высокую твердость покрытия.
+								</p>
+								<p class="accord__bottom-price">
+									От 13 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Оклейка антигравийной пленкой
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Нанесение защитной антигравийной пленки на автомобиль, для защиты от сколов, царапин и мелких
+									повреждений лакокрасочного покрытия.
+									Защитной пленкой можно оклеить любые детали авто: крышу, передний и задний бампер, фары, зеркала,
+									молдинги, пороги и прочие элементы, на которых есть лак.
+
+								</p>
+								<p class="accord__bottom-price">
+									От 120 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Полировка кузова автомобиля
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Полировка - комплекс процедур, способствующий сохранению глубины цвета, восстановлению лакокрасочного
+									покрытия и его защите от воздействия окружающей среды. С помощью легкой ручной полировки можно
+									устранить все неровности и сделать покрытие идеально гладким и блестящим.
+								</p>
+								<p class="accord__bottom-price">
+									От 19 500 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Химчистка салона автомобиля
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Профессиональная детейлинг химчистка салона автомобиля: полная очистка кожи и текстиля сидений, руля,
+									потолка, багажника от любых загрязнений.
+								</p>
+								<p class="accord__bottom-price">
+									От 20 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Детейлинг уход за автомобилем
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Представляет собой более глубокую и тщательную очистку кузова автомобиля от загрязнений различной
+									сложности с применением высокотехнологичных и профессиональных средств. Особое внимание уделяется
+									мелким деталям и труднодоступным местам.
+								</p>
+								<p class="accord__bottom-price">
+									От 3 500 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="accord__item">
+						<div class="accord__top">
+							<h4 class="accord__top-title">
+								Покраска автомобиля
+							</h4>
+							<div class="accord__top-icon">
+								<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+									<path fill="#ffffff"
+										d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+								</svg>
+							</div>
+						</div>
+						<div class="accord__bottom">
+							<div class="accord__bottom-inner">
+								<p class="accord__bottom-text paragraph">
+									Полная покраска автомобиля означает нанесение лакокрасочных материалов на все элементы кузова без
+									исключения, она может подразумевать использование цветов или оттенков, отличных от «родных».
+								</p>
+								<p class="accord__bottom-price">
+									От 29 000 рублей
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="login.html" class="services__btn btn">Записаться</a>
+		</div>
+	</div>
+</section>
+		<section id="advantages" class="advantages">
+	<div class="container advantages__container">
+		<div class="advantages__text">
+			<h2 class="advantages__title title title--center">
+				Комфортное ожидание
+			</h2>
+			<p class="advantages__subtitle subtitle subtitle--center">
+				Время ремонтных работ вы можете провести в зоне ожидания нашего сервиса
+			</p>
+		</div>
+		<ul class="advantages__list">
+			<li class="advantages__item">
+				<div class="advantages__icon">
+					<svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M2.71598 16.1258C2.89681 17.6729 3.72352 19.0714 4.99182 19.9757C5.9263 20.6419 7.04537 21 8.19303 21H11.8069C12.9546 21 14.0736 20.6419 15.0081 19.9757C16.2764 19.0714 17.1031 17.6729 17.284 16.1258L17.6846 12.6978C17.7346 12.2706 17.7595 12.057 17.749 11.8809C17.694 10.9577 17.0132 10.1928 16.1027 10.0309C15.929 10 15.7139 10 15.2838 10H4.71612C4.286 10 4.07094 10 3.89725 10.0309C2.98677 10.1928 2.30599 10.9577 2.2509 11.8809C2.2404 12.057 2.26536 12.2706 2.3153 12.6978"
+							stroke="#000000" stroke-width="1.5" stroke-linecap="round" />
+						<path d="M17 17H19C20.6569 17 22 15.6569 22 14C22 12.3431 20.6569 11 19 11H17.5" stroke="#000000"
+							stroke-width="1.5" />
+						<path d="M10.0002 2C9.44787 2.55228 9.44787 3.44772 10.0002 4C10.5524 4.55228 10.5524 5.44772 10.0002 6"
+							stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M4.99994 7.5L5.11605 7.38388C5.62322 6.87671 5.68028 6.0738 5.24994 5.5C4.81959 4.9262 4.87665 4.12329 5.38382 3.61612L5.49994 3.5"
+							stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M14.4999 7.5L14.6161 7.38388C15.1232 6.87671 15.1803 6.0738 14.7499 5.5C14.3196 4.9262 14.3767 4.12329 14.8838 3.61612L14.9999 3.5"
+							stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
+				<h4 class="advantages__item-title">
+					Чай и кофе
+				</h4>
+				<p class="advantages__item-subtitle">
+					Чай, кофе для наших клиентов бесплатно
+				</p>
+			</li>
+			<li class="advantages__item">
+				<div class="advantages__icon">
+					<svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12.0002 19C11.4479 19 11.0002 19.4477 11.0002 20C11.0002 20.5523 11.4479 21 12.0002 21V19ZM12.0102 21C12.5625 21 13.0102 20.5523 13.0102 20C13.0102 19.4477 12.5625 19 12.0102 19V21ZM14.6907 17.04C15.0993 17.4116 15.7317 17.3817 16.1033 16.9732C16.475 16.5646 16.445 15.9322 16.0365 15.5605L14.6907 17.04ZM18.0541 13.3403C18.4626 13.7119 19.0951 13.682 19.4667 13.2734C19.8384 12.8649 19.8084 12.2324 19.3999 11.8608L18.0541 13.3403ZM7.96394 15.5605C7.55539 15.9322 7.52546 16.5646 7.89708 16.9732C8.26871 17.3817 8.90117 17.4116 9.30971 17.04L7.96394 15.5605ZM4.60055 11.8608C4.192 12.2324 4.16207 12.8649 4.53369 13.2734C4.90532 13.682 5.53778 13.7119 5.94633 13.3403L4.60055 11.8608ZM12.0002 21H12.0102V19H12.0002V21ZM12.0002 16C13.0369 16 13.9795 16.3931 14.6907 17.04L16.0365 15.5605C14.9715 14.5918 13.5538 14 12.0002 14V16ZM12.0002 11C14.3321 11 16.4548 11.8855 18.0541 13.3403L19.3999 11.8608C17.4468 10.0842 14.8489 9 12.0002 9V11ZM9.30971 17.04C10.0209 16.3931 10.9635 16 12.0002 16V14C10.4466 14 9.02893 14.5918 7.96394 15.5605L9.30971 17.04ZM5.94633 13.3403C7.54565 11.8855 9.66836 11 12.0002 11V9C9.15148 9 6.55365 10.0842 4.60055 11.8608L5.94633 13.3403Z"
+							fill="#000000" />
+					</svg>
+				</div>
+				<h4 class="advantages__item-title">
+					Wi-fi
+				</h4>
+				<p class="advantages__item-subtitle">
+					Вы можете заниматься своими делами, пока ожидаете автомобиль
+				</p>
+			</li>
+			<li class="advantages__item">
+				<div class="advantages__icon">
+					<svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g id="SVGRepo_bgCarrier" stroke-width="0" />
+						<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+						<g id="SVGRepo_iconCarrier">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M15.4881 1.43057C15.8026 1.70014 15.839 2.17361 15.5694 2.48811L13.2021 5.25001L16.0549 5.25001C17.4225 5.24999 18.5248 5.24997 19.3918 5.36653C20.2919 5.48755 21.0497 5.74644 21.6516 6.34836C22.2536 6.95028 22.5125 7.70815 22.6335 8.60826C22.75 9.47523 22.75 10.5776 22.75 11.9451V16.0549C22.75 17.4225 22.75 18.5248 22.6335 19.3918C22.5125 20.2919 22.2536 21.0497 21.6517 21.6517C21.0497 22.2536 20.2919 22.5125 19.3918 22.6335C18.5248 22.7501 17.4225 22.75 16.0549 22.75L7.94513 22.75C6.57754 22.75 5.47522 22.7501 4.60825 22.6335C3.70814 22.5125 2.95027 22.2536 2.34835 21.6517C1.74643 21.0497 1.48754 20.2919 1.36652 19.3918C1.24996 18.5248 1.24998 17.4225 1.25 16.0549L1.25 11.9451C1.24998 10.5775 1.24996 9.47523 1.36652 8.60826C1.48754 7.70815 1.74643 6.95028 2.34835 6.34836C2.95027 5.74645 3.70814 5.48755 4.60825 5.36654C5.47521 5.24998 6.57753 5.24999 7.94512 5.25001L10.7979 5.25001L8.43056 2.48811C8.16099 2.17361 8.19741 1.70014 8.51191 1.43057C8.8264 1.16101 9.29988 1.19743 9.56944 1.51192L12 4.34757L14.4306 1.51192C14.7001 1.19743 15.1736 1.161 15.4881 1.43057ZM16.75 6.75079L16.75 21.2492C17.7958 21.246 18.5756 21.2297 19.1919 21.1469C19.9257 21.0482 20.3142 20.8678 20.591 20.591C20.8678 20.3142 21.0482 19.9257 21.1469 19.1919C21.2484 18.4365 21.25 17.4354 21.25 16V12C21.25 10.5646 21.2484 9.56348 21.1469 8.80813C21.0482 8.07436 20.8678 7.68578 20.591 7.40902C20.3142 7.13226 19.9257 6.95181 19.1919 6.85316C18.5756 6.77031 17.7958 6.75399 16.75 6.75079ZM15.25 21.25L15.25 6.75001L8 6.75001C6.56458 6.75001 5.56347 6.75161 4.80812 6.85316C4.07435 6.95181 3.68577 7.13226 3.40901 7.40902C3.13225 7.68579 2.9518 8.07436 2.85315 8.80813C2.75159 9.56348 2.75 10.5646 2.75 12L2.75 16C2.75 17.4354 2.75159 18.4365 2.85315 19.1919C2.9518 19.9257 3.13225 20.3142 3.40901 20.591C3.68577 20.8678 4.07435 21.0482 4.80812 21.1469C5.56347 21.2484 6.56459 21.25 8 21.25L15.25 21.25Z"
+								fill="#000000" />
+							<path
+								d="M20 16C20 15.4477 19.5523 15 19 15C18.4477 15 18 15.4477 18 16C18 16.5523 18.4477 17 19 17C19.5523 17 20 16.5523 20 16Z"
+								fill="#000000" />
+							<path
+								d="M20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13C19.5523 13 20 12.5523 20 12Z"
+								fill="#000000" />
+						</g>
+
+					</svg>
+				</div>
+				<h4 class="advantages__item-title">
+					Телевидение
+				</h4>
+				<p class="advantages__item-subtitle">
+					В зоне ожидания есть работающий телевизор
+				</p>
+			</li>
+		</ul>
+	</div>
+</section>
+	</main>
+	<footer id="footer" class="footer">
+	<div class="container footer__container">
+		<h2 class="footer__title title title--center">Свяжитесь с нами</h2>
+		<div class="footer__contacts">
+			<a href="tel:74951390707" class="footer__phone">+7 (495) 139-07-07</a>
+			<div class="footer__time">с 9:00 до 21:00</div>
+		</div>
+		<div class="footer__address">
+			Москва, Звенигорское ш., 28 строение 2,
+		</div>
+		<ul class="footer__socials">
+			<li class="footer__item">
+				<a href="https://instagram.com/brooklands_detailing?igshid=OGQ5ZDc2ODk2ZA==" class="footer__link" target="_blank">
+					<div class="footer__icon">
+						<svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g id="SVGRepo_bgCarrier" stroke-width="0" />
+							<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+							<g id="SVGRepo_iconCarrier">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+									fill="#000000" />
+								<path
+									d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+									fill="#000000" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+									fill="#000000" />
+							</g>
+						</svg>
+					</div>
+				</a>
+			</li>
+			<li class="footer__item">
+				<a href="https://api.whatsapp.com/send/?phone=79688990707" class="footer__link" target="_blank">
+					<div class="footer__icon">
+						<svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g id="SVGRepo_bgCarrier" stroke-width="0" />
+							<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+							<g id="SVGRepo_iconCarrier">
+								<path
+									d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+									fill="#000000" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+									fill="#000000" />
+							</g>
+						</svg>
+					</div>
+				</a>
+			</li>
+			<li class="footer__item">
+				<a href="https://t.me/brooklandsdetailing" class="footer__link" target="_blank">
+					<div class="footer__icon">
+						<svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g id="SVGRepo_bgCarrier" stroke-width="0" />
+							<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+							<g id="SVGRepo_iconCarrier">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z"
+									fill="#000000" />
+							</g>
+						</svg>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35912.29446504918!2d37.47038075820313!3d55.7668678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5497f25ec36bd%3A0xf955d02b5ab748da!2sBrooklands%20Detailing!5e0!3m2!1sru!2sru!4v1701016380964!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</footer>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20231212161548"></script>
+<script src="./scripts/utils.bundle.js?_v=20231212161548"></script>
+<script src="./scripts/main.bundle.js?_v=20231212161548"></script>
+
+</body>
+
+</html>

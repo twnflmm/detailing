@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="./files/icons/favicon.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="./styles/styles.bundle.css?_v=20231212161548">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20231212161548" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700;900&display=swap&_v=20231212161548"
+		rel="stylesheet">
+	<title>Brooklands</title>
+</head>
+
+<body>
+	<header id="header-reg" class="header header-reg">
+	<div class="container header__container">
+		<a href="index.html" class="logo header__logo header__logo--reg">
+			Brooklands
+		</a>
+	</div>
+</header>
+	<main>
+		<section class="registration">
+			<div class="container registration__container">
+				<div class="registration__form">
+					<form action="#" class="form">
+						<h2 class="form__title title title--center">Регистрация</h2>
+						<div class="form__input-control">
+							<label for="username">Имя пользователя</label>
+							<input id="username" name="username" type="text" placeholder="Егор" required>
+						</div>
+						<div class="form__input-control">
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" placeholder="mail@gmail.com" required>
+						</div>
+						<div class="form__input-control">
+							<label for="password">Пароль</label>
+							<input id="password" name="password" type="password" placeholder="Не менее 6 символов" required>
+						</div>
+						<div class="form__input-control">
+							<label for="password2">Повтор пароля</label>
+							<input id="password2" name="password2" type="password"  placeholder="******" required>
+						</div>
+						<button class="form__btn btn" type="submit">Зарегистрироваться</button>
+						<div class="form__login-register login-register">
+							<span class="login-register__text">Уже есть аккаунт?</span>
+							<a href="login.html" class="login-register__link log-reg-link">Войти</a>
+						</div>
+					</form>
+				</div>
+				<div class="registration__content">
+					<div class="registration__title title title--center">
+						Преимущества регистрации
+					</div>
+					<div class="registration__image registration__image--reg">
+						<picture><source srcset="./files/images/reg.webp" type="image/webp"><img src="./files/images/reg.jpg" alt="Registration Image"></picture>
+					</div>
+					<ul class="registration__list">
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph">
+								Начисление бонусов за услуги детейлинга
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph">
+								Акции зарегистрированым пользователем
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph ">
+								Удобное оформление заказов - зарегистрированные пользователи могут быстро и удобно оформлять заказы
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph ">
+								Зарегистрированные пользователи могут получать уведомления о новых товарах, акциях и других важных
+								событиях на сайте
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20231212161548"></script>
+<script src="./scripts/utils.bundle.js?_v=20231212161548"></script>
+<script src="./scripts/main.bundle.js?_v=20231212161548"></script>
+
+</body>
+
+</html>

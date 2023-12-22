@@ -1,0 +1,35 @@
+.admin-profile {
+	padding-top: 200px;
+	height: 100vh;
+	background-color: $black;
+	color: $white;
+
+	&__container {
+		padding: 0 220px;
+		display: flex;
+		gap: 30px;
+		align-items: center;
+	}
+
+	&__avatar {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: $white;
+	}
+
+	&__title {
+		font-size: 56px;
+		margin-bottom: 10px;
+	}
+
+	&__logout {
+		display: inline-block;
+		margin-top: 50px;
+		padding: 8px 20px;
+		color: $black;
+		background-color: $white;
+		font-size: 20px;
+		border-radius: 10px;
+	}
+}

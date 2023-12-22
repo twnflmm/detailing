@@ -1,0 +1,172 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__list {
+		display: flex;
+		gap: 150px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__link {
+		display: block;
+		position: relative;
+		font-size: 20px;
+		font-weight: 400;
+		
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			right: 0;
+			width: 0;
+			height: 2px;
+			background-color: $white;
+			transition: all .3s;
+		}
+
+		&:hover {
+			&::before {
+				width: 100%;
+				transition: all .3s;
+			}
+		}
+	}
+
+	&__profile {
+		font-size: 20px;
+		font-weight: 400;
+		color: $black;
+		background-color: $white;
+		padding: 10px 20px;
+		border-radius: 10px;
+	}
+
+	@media (max-width: $extraLarge) {
+		display: none;
+	}
+}
+
+.logo {
+	font-family: 'Playfair Display', serif;
+	line-height: 120%;
+	font-weight: 700;
+	z-index: 1000;
+}
+
+.burger {
+	position: relative;
+	display: none;
+	height: 21px;
+	width: 40px;
+	z-index: 1000;
+	cursor: pointer;
+
+	span {
+		display: block;
+		height: 2px;
+		width: 100%;
+		background-color: $white;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 2px;
+			width: 100%;
+			background-color: $white;
+			transition: all .3s;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 2px;
+			width: 100%;
+			background-color: $white;
+			transition: all .3s;
+		}
+	}
+
+	&.active {
+		span {
+			height: 0;
+
+			&::before {
+				transform: rotate(45deg);
+				transform-origin: 15% 15%;
+				transition: all .3s;
+			}
+
+			&::after {
+				transform: rotate(-45deg);
+				transform-origin: 15% 95%;
+				transition: all .3s;
+			}
+		}
+	}
+
+	@media (max-width: $extraLarge) {
+		display: block;
+	}
+}
+
+.menu {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transform: translateX(100%);
+	background-color: $black;
+	color: $white;
+	transition: transform 0.7s ease;
+
+	&__list {
+		display: flex;
+		gap: 40px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__link {
+		font-weight: 700;
+		font-size: 28px;
+	}
+
+	&__button {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 10px;
+		left: 8%;
+		right: 8%;
+		bottom: 3%;
+		padding: 20px 0;
+		color: $black;
+		background-color: $white;
+	}
+
+	&.active {
+		transition: all 0.7s ease;
+		transform: translateX(0);
+	}
+
+	@media (min-width: $extraLarge) {
+		display: none;
+	}
+}

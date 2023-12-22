@@ -1,0 +1,165 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+}
+
+input,
+textarea,
+button,
+select {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {}
+
+a {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section {
+  position: relative;
+}
+
+picture {
+  height: 100%;
+
+  img {
+    display: flex;
+    align-items: end;
+  }
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+
+  span {
+    font-weight: 900;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  @media (max-width: $extraLarge) {
+    font-size: 28px;
+  }
+
+  @media (max-width: $small) {
+    font-size: 24px;
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  &--center {
+    text-align: center;
+  }
+
+  @media (max-width: $extraLarge) {
+    font-size: 16px;
+  }
+
+  @media (max-width: $medium) {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+
+.paragraph {
+  max-width: 550px;
+  font-size: 18px;
+
+  &--center {
+    text-align: center;
+  }
+
+  @media (max-width: $extraLarge) {
+    font-size: 14px;
+  }
+
+  @media (max-width: $small) {
+    font-size: 12px;
+    line-height: 140%;
+  }
+}
+
+.btn {
+  font-size: 20px;
+  padding: 20px 50px;
+  border: 2px solid $black;
+  border-radius: 8px;
+  color: $black;
+  transition: color .4s linear, background-color .3s ease-in-out;
+
+  &:hover {
+    color: $white;
+    background-color: $black;
+  }
+
+  &--inverse {
+    border: 2px solid $white;
+    color: $white ;
+
+
+    &:hover {
+      color: $black;
+      background-color: $white;
+    }
+  }
+
+  @media (max-width: $extraLarge) {
+    font-size: 16px;
+    padding: 12px 40px;
+  }
+}

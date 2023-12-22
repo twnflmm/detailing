@@ -1,0 +1,37 @@
+@@include('./meta/head.html')
+
+<body>
+	@@include('./components/header-reg.html')
+	<main>
+		<section class="registration">
+			<div class="container registration__container">
+				<div class="registration__form">
+					<form action="#" class="form">
+						<h2 class="form__title title title--center">Вход</h2>
+						<div class="form__input-control">
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" placeholder="mail@gmail.com" required>
+						</div>
+						<div class="form__input-control">
+							<label for="password">Пароль</label>
+							<input id="password" name="password" type="password" placeholder="******" required>
+						</div>
+						<button class="form__btn btn" type="submit">Войти</button>
+						<div class="form__login-register login-register">
+							<span class="login-register__text">Нет аккаунта?</span>
+							<a href="registration.html" class="login-register__link log-reg-link">Зарегистироваться</a>
+						</div>
+					</form>
+				</div>
+				<div class="registration__content">
+					<div class="registration__image registration__image--log">
+						<img src="@images/hero.jpg" alt="Registration Image">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	@@include('meta/includeScripts.html')
+</body>
+
+</html>

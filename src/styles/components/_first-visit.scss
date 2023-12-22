@@ -1,0 +1,34 @@
+.first-visit {
+	padding: 50px;
+	background-color: #9c9c9c;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		justify-content: space-between;
+
+		@media (max-width: $medium) {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+
+	&__title {
+		margin-bottom: 10px;
+
+		@media (max-width: $medium) {
+			text-align: center;
+		}
+	}
+
+	&__subtitle {
+		@media (max-width: $medium) {
+			text-align: center;
+		}
+	}
+
+	@media (max-width: $medium) {
+		padding: 30px 0;
+	}
+}

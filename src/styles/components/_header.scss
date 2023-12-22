@@ -1,0 +1,52 @@
+.header {
+	position: fixed;
+	padding: 50px 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	color: $white;
+	transition: all .3s;
+
+	&__container {
+		position: relative;
+		padding: 0 100px;
+
+		@media (max-width: $extraLarge) {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		@media (max-width: $large) {
+			padding: 0 20px;
+		}
+	}
+
+	&__logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 36px;
+		transform: translate(-50%, -50%);
+		
+		&--reg {
+			transform: translate(-50%, -23%);
+		}
+
+		@media (max-width: $extraLarge) {
+			font-size: 24px;
+		}
+	}
+}
+
+.header-fixed {
+	position: fixed;
+	padding: 20px 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	background-color: $black;
+	transition: all .3s ease-in-out;
+}

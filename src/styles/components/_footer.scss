@@ -1,0 +1,91 @@
+.footer {
+	position: relative;
+	padding-top: 120px;
+	padding-bottom: 45vh;
+	background-color: $black;
+	color: $white;
+
+	&__container {
+		display: flex;
+		gap: 30px;
+		flex-direction: column;
+		align-items: center;
+
+		@media (max-width: $medium) {
+			gap: 20px;
+			margin-bottom: 50px;
+		}
+	}
+
+	&__phone {
+		font-size: 20px;
+		transition: all .3s;
+
+		&:hover {
+			color: $green;
+			transition: all .3s;
+		}
+
+		@media (max-width: $medium) {
+			font-size: 16px;
+		}
+	}
+
+	&__time {
+		text-align: center;
+
+		@media (max-width: $medium) {
+			font-size: 12px;
+		}
+	}
+
+	&__address {
+		@media (max-width: $medium) {
+			font-size: 12px;
+		}
+	}
+
+	&__socials {
+		display: flex;
+		gap: 15px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $white;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		transition: all .3s;
+
+		&:hover {
+			transform: scale(1.2);
+			transition: all .3s;
+		}
+	}
+
+	&__icon {
+		width: 25px;
+		height: 25px;
+
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	iframe {
+		position: absolute;
+		width: 100%;
+		height: 40vh;
+		bottom: 0;
+	}
+
+	@media (max-width: $medium) {
+		padding-top: 80px;
+	}
+}

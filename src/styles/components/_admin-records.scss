@@ -1,0 +1,12 @@
+.admin-records {
+	padding-top: 200px;
+	height: 100vh;
+	background-color: $black;
+	color: $white;
+
+	&__container {
+		padding: 0 220px;
+		display: flex;
+		align-items: center;
+	}
+}

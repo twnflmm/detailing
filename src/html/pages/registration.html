@@ -1,0 +1,71 @@
+@@include('./meta/head.html')
+
+<body>
+	@@include('./components/header-reg.html')
+	<main>
+		<section class="registration">
+			<div class="container registration__container">
+				<div class="registration__form">
+					<form action="#" class="form">
+						<h2 class="form__title title title--center">Регистрация</h2>
+						<div class="form__input-control">
+							<label for="username">Имя пользователя</label>
+							<input id="username" name="username" type="text" placeholder="Егор" required>
+						</div>
+						<div class="form__input-control">
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" placeholder="mail@gmail.com" required>
+						</div>
+						<div class="form__input-control">
+							<label for="password">Пароль</label>
+							<input id="password" name="password" type="password" placeholder="Не менее 6 символов" required>
+						</div>
+						<div class="form__input-control">
+							<label for="password2">Повтор пароля</label>
+							<input id="password2" name="password2" type="password"  placeholder="******" required>
+						</div>
+						<button class="form__btn btn" type="submit">Зарегистрироваться</button>
+						<div class="form__login-register login-register">
+							<span class="login-register__text">Уже есть аккаунт?</span>
+							<a href="login.html" class="login-register__link log-reg-link">Войти</a>
+						</div>
+					</form>
+				</div>
+				<div class="registration__content">
+					<div class="registration__title title title--center">
+						Преимущества регистрации
+					</div>
+					<div class="registration__image registration__image--reg">
+						<img src="@images/reg.jpg" alt="Registration Image">
+					</div>
+					<ul class="registration__list">
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph">
+								Начисление бонусов за услуги детейлинга
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph">
+								Акции зарегистрированым пользователем
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph ">
+								Удобное оформление заказов - зарегистрированные пользователи могут быстро и удобно оформлять заказы
+							</p>
+						</li>
+						<li class="registration__item">
+							<p class="registration__paragraph paragraph ">
+								Зарегистрированные пользователи могут получать уведомления о новых товарах, акциях и других важных
+								событиях на сайте
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	@@include('meta/includeScripts.html')
+</body>
+
+</html>
